@@ -1,0 +1,30 @@
+{
+  "name": "linkshortener-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmarcosferreira/linkShortener-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmarcosferreira/linkShortener-backend/issues"
+  },
+  "homepage": "https://github.com/danielmarcosferreira/linkShortener-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  }
+}
